@@ -16,21 +16,34 @@
 5. Выложить историю команд в терминале ubuntu
 
       $ cat > pets.txt
+   
       $ cat > pack_animals.txt
+   
       $ cat pets.txt pack_animals.txt > all_animals.txt
+   
       $ cat all_animals.txt
+   
       $ mv all_animals.txt human_friends.txt
+   
       $ mkdir animal
+   
       $ mv human_friends.txt animal/
+   
       $ sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+   
       $ sudo apt update
+   
       $ sudo apt install mysql-server mysql-client
+   
       $ systemctl status mysql.service
+   
       $ sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+   
       $ sudo dpkg -r mysql-apt-config
+   
       $ sudo dpkg --purge mysql-apt-config
   
-6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
+7. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
@@ -38,7 +51,7 @@
 
 
 
-7. В подключенном MySQL репозитории создать базу данных “Друзья
+8. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
 
 ![image](https://github.com/user-attachments/assets/57f4aa7a-c50a-4a2b-849d-8130b1f154c5)
